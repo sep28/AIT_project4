@@ -7,6 +7,16 @@
 	<li>Lines of Code: {{this.lines}}</li> </br>
 	<li><pre>{{this.code}}</pre></li> </br>
 	<li>Tags: {{this.tags}}</li></br>
-	</p>
+	<li>----------------------------------------</li></br></br>
 	{{/each}}
+	</p>
+
+	<form action="/" method="get">
+		Search by number of lines:<br>
+		<input type="text" name="lineQ"><br>
+		Search by tags:<br>
+		<input type="text" name="tagQ"><br>
+		Search by text:<br>
+		<input type="text" name=textQ><br>
+	</form>
 </ul>
