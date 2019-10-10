@@ -72,6 +72,7 @@ app.use(function(req, res, next) {
 });
 app.use(express.static(publicPath));
 app.get("/", (req, res) => {
+	//here is where I would use the form data received to route any specific snippets, ran out of time
 	res.render("home", {snippetArr: snippetArr});
 });
 
