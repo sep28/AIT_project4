@@ -1,1 +1,12 @@
 <h2>My Snippets</h2>
+<ul>
+	<p>
+	{{#each snippetArr}}
+	
+	<li>Name: {{this.name}}</li></br>
+	<li>Lines of Code: {{this.lines}}</li> </br>
+	<li><pre>{{this.code}}</pre></li> </br>
+	<li>Tags: {{this.tags}}</li></br>
+	</p>
+	{{/each}}
+</ul>
